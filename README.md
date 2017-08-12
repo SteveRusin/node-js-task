@@ -2,6 +2,8 @@
 The task has to be made as a homework to the lecture #18 (Networking + Node.js). As I said, you will need 2 weeks for solving. :smiling_imp:
 Somebody of you will be ~~happy~~ :angry:! Let's come to the task.
 
+Create a [new issue](https://github.com/stanislavt/node-js-task/issues/new), if you have a question.
+
 ### Steps
 - [x] Create a new server using [Express.js](http://expressjs.com/)
 - [x] As the main storage, you have to create a new file `storage.data`
