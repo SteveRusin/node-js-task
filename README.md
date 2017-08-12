@@ -6,11 +6,26 @@ Somebody of you will be ~~happy~~ :angry:! Let's come to the task.
 - [x] Create a new server using [Express.js](http://expressjs.com/)
 - [x] As the main storage, you have to create a new file `storage.data`
 - [x] Create following [handlers](http://expressjs.com/en/guide/routing.html), which will be run according to the different requests:
-- `POST /users` - create a new user (add user info into `storage.data`)
-- `GET /users` - returns list of users
-- `GET /users/{id}` - returns user by `id`
-- `PUT GET /users/{id}` - replace user data by `id`
-- `DELETE GET /users/{id}` - removes user by `id`
+- [`POST /users`](#post-users)
+- [`GET /users`](#get-users)
+- [`GET /users/{id}`](#get-users-{id})
+- [`PUT GET /users/{id}`](#put-users-{id})
+- [`DELETE GET /users/{id}`](#delete-users-{id})
+
+#### `POST /users`
+Creates a new user (add user info into `storage.data`).
+
+#### `GET /users`
+Returns list of users
+
+#### `GET /users/{id}`
+Returns user by `id`
+
+#### `PUT /users/{id}`
+Replace user data by `id`
+
+#### `DELETE /users/{id}`
+Removes user by `id`
 
 ### User data:
 
