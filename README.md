@@ -8,9 +8,9 @@ Somebody of you will be ~~happy~~ :angry:! Let's come to the task.
 - [x] Create following [handlers](http://expressjs.com/en/guide/routing.html), which will be run according to the different requests:
 - [`POST /users`](#post-users)
 - [`GET /users`](#get-users)
-- [`GET /users/{id}`](#get-users-{id})
-- [`PUT GET /users/{id}`](#put-users-{id})
-- [`DELETE GET /users/{id}`](#delete-users-{id})
+- [`GET /users/{id}`](#get-usersid)
+- [`PUT GET /users/{id}`](#put-usersid)
+- [`DELETE GET /users/{id}`](#delete-usersid)
 
 #### `POST /users`
 Creates a new user (add user info into `storage.data`).
