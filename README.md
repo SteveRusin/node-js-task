@@ -11,8 +11,8 @@ Create a [new issue](https://github.com/stanislavt/node-js-task/issues/new), if 
 - [`POST /users`](#post-users)
 - [`GET /users`](#get-users)
 - [`GET /users/{id}`](#get-usersid)
-- [`PUT GET /users/{id}`](#put-usersid)
-- [`DELETE GET /users/{id}`](#delete-usersid)
+- [`PUT /users/{id}`](#put-usersid)
+- [`DELETE /users/{id}`](#delete-usersid)
 
 #### `POST /users`
 Creates a new user (add user info into `storage.data`).
